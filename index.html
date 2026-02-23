@@ -5,30 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <meta property="og:title" content="STUDIO HOME WORK | VIP">
-    <meta property="og:description" content="شاهد المحتوى الحصري الآن 🔥">
     <meta property="og:image" content="https://jasim28v-cloud.github.io/porn/img1.jpg">
-    <meta property="og:type" content="website">
+    <meta property="og:description" content="شاهد المحتوى الحصري الآن 🔥">
 
-    <title>STUDIO HOME WORK | PREMIUM</title>
+    <title>STUDIO HOME WORK | PREMIUM ACCESS</title>
     <style>
         :root { --main-red: #ff004c; --gold: #d4af37; --bg: #050505; }
         body { background-color: var(--bg); color: white; font-family: 'Arial', sans-serif; margin: 0; display: flex; flex-direction: column; align-items: center; }
         
-        header { width: 100%; padding: 20px; text-align: center; border-bottom: 2px solid var(--main-red); background: #000; box-shadow: 0 5px 20px rgba(255, 0, 76, 0.5); }
-        .logo { font-size: 2.2rem; font-weight: bold; color: var(--main-red); text-transform: uppercase; letter-spacing: 3px; }
+        /* الهيدر والشعار */
+        header { width: 100%; padding: 15px; text-align: center; border-bottom: 2px solid var(--main-red); background: #000; box-shadow: 0 5px 20px rgba(255, 0, 76, 0.5); }
+        .logo { font-size: 2rem; font-weight: bold; color: var(--main-red); text-transform: uppercase; letter-spacing: 3px; }
 
-        .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 40px; width: 90%; max-width: 1000px; }
-        
+        /* الشريط الإعلاني العلوي - الرابط الأول */
+        .top-ad { width: 100%; background: linear-gradient(90deg, var(--main-red), #700022); padding: 12px 0; text-align: center; box-shadow: 0 0 15px var(--main-red); }
+        .top-ad a { color: white; text-decoration: none; font-weight: bold; font-size: 0.9rem; display: block; }
+
+        /* حاوية الصور */
+        .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 30px; width: 90%; max-width: 1000px; }
         .video-card { background: #111; border-radius: 20px; overflow: hidden; border: 2px solid #222; cursor: pointer; transition: 0.4s; position: relative; }
         .video-card:hover { transform: scale(1.05); border-color: var(--gold); box-shadow: 0 0 20px var(--main-red); }
         
-        /* تعديل الروابط لتكون مطلقة لضمان ظهورها في إنستغرام */
         .thumbnail { width: 100%; aspect-ratio: 16/9; background-size: cover; background-position: center; position: relative; }
         .play-btn { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 60px; color: white; filter: drop-shadow(0 0 15px var(--main-red)); }
 
         .info { padding: 20px; text-align: center; background: linear-gradient(to top, #000, transparent); }
-        .btn-link { display: block; background: var(--main-red); color: white; padding: 15px; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 1.1rem; }
+        .btn-link { display: block; background: var(--main-red); color: white; padding: 12px; text-decoration: none; border-radius: 10px; font-weight: bold; }
         
+        /* البانر الإعلاني السفلي - الرابط الثالث */
+        .footer-ad { margin: 30px 0; width: 90%; max-width: 728px; border: 2px solid var(--gold); border-radius: 10px; overflow: hidden; }
+        .footer-ad img { width: 100%; display: block; }
+
+        /* شاشة التحميل للقناة */
         .overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 9999; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
         .loader { border: 5px solid #f3f3f3; border-top: 5px solid var(--main-red); border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; margin-bottom: 20px; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
@@ -37,6 +45,10 @@
 <body>
 
     <header><div class="logo">STUDIO HOME WORK</div></header>
+
+    <div class="top-ad">
+        <a href="https://omg10.com/4/10639585" target="_blank">🎁 عرض خاص: اضغط هنا لفتح الوصول الكامل مجاناً! 🔥</a>
+    </div>
 
     <div class="container">
         <div class="video-card" onclick="startAction()">
@@ -60,6 +72,12 @@
         </div>
     </div>
 
+    <div class="footer-ad">
+        <a href="https://omg10.com/4/10638265" target="_blank">
+            <img src="https://via.placeholder.com/728x90/111/d4af37?text=CLICK+TO+UNLOCK+PREMIUM+VIDEO+LIST" alt="Banner Ad">
+        </a>
+    </div>
+
     <div id="redirectOverlay" class="overlay">
         <div class="loader"></div>
         <h2 style="color: var(--gold);">جاري فك التشفير...</h2>
@@ -69,10 +87,10 @@
 
     <script>
         function startAction() {
-            // فتح رابط الإعلان في نافذة جديدة
+            // فتح رابط الإعلان الأساسي (Fair Link) في نافذة جديدة
             window.open("https://omg10.com/4/10637838", "_blank");
             
-            // إظهار شاشة التحميل والتحويل في نفس الصفحة لضمان عمل القناة في إنستغرام
+            // إظهار شاشة التحميل والتحويل في نفس الصفحة
             document.getElementById('redirectOverlay').style.display = 'flex';
             
             // التحويل التلقائي للقناة بعد 3 ثوانٍ
